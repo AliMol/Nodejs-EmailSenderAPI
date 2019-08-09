@@ -1,0 +1,26 @@
+{
+  "name": "siteminder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha  test/*.js --exit --timeout 10000"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mailgun-js": "0.5",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "6.0.0",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
+    "supertest": "^4.0.2"
+  }
+}
